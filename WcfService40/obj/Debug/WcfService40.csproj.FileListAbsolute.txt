@@ -1,0 +1,7 @@
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent40\WcfService40\bin\WcfService40.dll.config
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent40\WcfService40\bin\WcfService40.dll
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent40\WcfService40\bin\WcfService40.pdb
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent40\WcfService40\obj\Debug\WcfService40.csproj.AssemblyReference.cache
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent40\WcfService40\obj\Debug\WcfService40.csproj.CoreCompileInputs.cache
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent40\WcfService40\obj\Debug\WcfService40.dll
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent40\WcfService40\obj\Debug\WcfService40.pdb
