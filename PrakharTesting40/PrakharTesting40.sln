@@ -4,11 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrakharTesting40", "PrakharTesting40.csproj", "{3B7D9D71-107E-4524-B73A-60C228B6FE4C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F886B705-4520-45EB-AF28-455B6E61AD9C} = {F886B705-4520-45EB-AF28-455B6E61AD9C}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService40", "..\WcfService40\WcfService40.csproj", "{F886B705-4520-45EB-AF28-455B6E61AD9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +15,6 @@ Global
 		{3B7D9D71-107E-4524-B73A-60C228B6FE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7D9D71-107E-4524-B73A-60C228B6FE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B7D9D71-107E-4524-B73A-60C228B6FE4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F886B705-4520-45EB-AF28-455B6E61AD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F886B705-4520-45EB-AF28-455B6E61AD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F886B705-4520-45EB-AF28-455B6E61AD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F886B705-4520-45EB-AF28-455B6E61AD9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,8 +13,11 @@ namespace PrakharTesting40
         {
             try
             {
-                ServiceReference1.Service1Client wcfServiceClient = new ServiceReference1.Service1Client();
-                var data = wcfServiceClient.GetData(10001);
+                AgentDBService.WcfServiceClient wcfServiceClient = new AgentDBService.WcfServiceClient();
+                //update
+                var updatedata = wcfServiceClient.UpdateAgentData("456");
+                //Get
+                var data = wcfServiceClient.AgentData();
             }
             catch (Exception ex)
             {

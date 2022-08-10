@@ -17,8 +17,7 @@ namespace PrakharTesting40
 
             try
             {
-
-                string ConnStr = @"Data Source=.;Initial Catalog=AgentDB;Integrated Security=SSPI;";
+                var ConnStr = System.Configuration.ConfigurationManager.ConnectionStrings["SQLConnectionString"].ConnectionString;
                 Conn = new SqlConnection(ConnStr);
                 string SqlString = "SELECT * FROM TR_Agent WHERE ID = 1;";
 

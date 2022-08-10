@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,17 +13,25 @@ namespace PrakharTesting40
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //try
+          //try
             //{
-            //    var dbClient = new MongoClient("mongodb://127.0.0.1:27017");
-            //    var dbList = dbClient.ListDatabases().ToList();
+            //    var dbclient = new MongoClient();
 
-            //    Console.WriteLine("The list of databases are:");
+            //    var connectionString = "mongodb://127.0.0.1:27017";
+            //    dbclient = new MongoClient(connectionString);
 
-            //    foreach (var item in dbList)
-            //    {
-            //        Console.WriteLine(item);
-            //    }
+            //    var database = dbclient.GetServer();
+            //    var d=database.GetDatabase(connectionString);
+            //    // Database List  
+            //    //var dbList = dbclient.ListDatabases().ToList();
+
+            //    //Console.WriteLine("The list of databases are :");
+
+            //    //foreach (var item in dbList)
+            //    //{
+            //    //    Console.WriteLine(item);
+
+            //    //}
             //}
             //catch (Exception ex)
             //{
